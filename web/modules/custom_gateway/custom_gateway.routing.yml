@@ -1,0 +1,15 @@
+custom_gateway.example:
+  path: '/custom-gateway/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\custom_gateway\Controller\CustomGatewayController::build'
+  requirements:
+    _permission: 'access content'
+
+custom_gateway.settings_form:
+  path: '/admin/config/system/custom-gateway'
+  defaults:
+    _title: 'Custom Gateway settings'
+    _form: 'Drupal\custom_gateway\Form\SettingsForm'
+  requirements:
+    _permission: 'administer custom_gateway configuration'

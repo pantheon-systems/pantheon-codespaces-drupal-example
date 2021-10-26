@@ -1,0 +1,6 @@
+services:
+  custom_gateway.event_subscriber:
+    class: Drupal\custom_gateway\EventSubscriber\CustomGatewaySubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }

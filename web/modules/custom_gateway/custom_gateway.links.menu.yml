@@ -1,0 +1,6 @@
+custom_gateway.settings_form:
+  title: Custom Gateway
+  description: Configure Custom Gateway.
+  parent: system.admin_config_system
+  route_name: custom_gateway.settings_form
+  weight: 10

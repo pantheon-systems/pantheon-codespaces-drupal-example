@@ -1,0 +1,4 @@
+administer custom_gateway configuration:
+  title: 'Administer custom_gateway configuration'
+  description: 'Optional description.'
+  restrict access: true
