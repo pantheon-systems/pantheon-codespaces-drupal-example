@@ -1,6 +1,6 @@
 # Composer-enabled Drupal template
 
-[![Unofficial](https://img.shields.io/badge/Pantheon-Unofficial-yellow?logo=pantheon&color=FFDC28)](https://pantheon.io/docs/oss-support-levels#unofficial)
+[![Unsupported](https://img.shields.io/badge/Pantheon-Unsupported-yellow?logo=pantheon&color=FFDC28)](https://pantheon.io/docs/oss-support-levels#unsupported)
 
 This is Pantheon's recommended starting point for forking new [Drupal](https://www.drupal.org/) upstreams
 that work with the Platform's Integrated Composer build process. It is also the
